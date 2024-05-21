@@ -97,9 +97,9 @@ main {
 
 /*hero section*/
 #hero{
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background-color: lightblue;
+    background: url("../images/smallerhero.png") no-repeat center center/cover;
 }
 
 /* Footer */
