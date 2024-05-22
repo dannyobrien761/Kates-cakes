@@ -222,12 +222,30 @@ footer {
     main{
         margin-top: 79px;
     }
-
+    /* hero*/
     #cover-text{
         width: 300px;
         right: 50px;
     }
+
+    /*reasons section */
+    #benifits-taste, #benifits-eye{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benifits-taste >div, #benifits-eye >div{
+        width: 75%;
+    }
+
+    #benifits-eye> div{
+        text-align: end;
+        align-self: flex-end;
+    }
+    
 }
+
 
 /* media query: laptop and desktop(992px and up)*/
 @media screen and (min-width:992px) {
@@ -237,4 +255,35 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
+}
+
+/* media query: laptop and desktop(992px and up)*/
+@media screen and (min-width:1200px) {
+
+
+    #benifits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benifits > div {
+        flex: 1;
+
+    }
+
+    #benifits-image{
+        order:0;
+    }
+
+    #benifits-eye{
+        order: 1;
+    }
+
+    #benifits-eye> div{
+        align-self: flex-start;
+    }
+
+    #benifits-taste> div{
+        align-self: flex-end;
+    }
 }
