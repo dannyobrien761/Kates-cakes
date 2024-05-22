@@ -148,8 +148,14 @@ main {
 
 #benifits p{
     padding: 0 20px;
-
 }
+
+/*image for reasons*/
+#circle-cover-bg{
+    background: url("../images/cupcakessmaller.png") no-repeat center center/cover;;
+}
+
+
 /* Footer */
 footer {
     background-color: orange;
