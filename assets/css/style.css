@@ -172,7 +172,7 @@ main {
 /*Steps image section*/
 
 #steps{
-    background: url("../images/race-cakesml.png") no-repeat center center/cover;
+    background: url("../images/ingredients.jpg") no-repeat center/cover;
     /*handles responsivity without the need for a media query*/
     display: flex;
     flex-wrap: wrap;
