@@ -167,7 +167,31 @@ main {
     align-items: center;
     justify-content: center;
 }
+/*Steps image section*/
 
+#steps{
+    background: url("../images/race-cakesml.png") no-repeat center center/cover;
+    /*handles responsivity without the need for a media query*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#steps div{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /*this will not wrap on screens of less than 400px wide, each div will expand to fill the available space on its row*/
+    flex-basis: 200px;
+    flex-grow: 1 ;
+    /*Creates a grid of meetup time divs over the background image*/
+    border: 2px solid white;
+}
+
+#steps h3{
+    /*over-ride the heading colour set in general styles*/
+    color: #ffffff;
+}
 /* Footer */
 footer {
     background-color: orange;
