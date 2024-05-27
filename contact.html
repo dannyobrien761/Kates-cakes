@@ -29,8 +29,8 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="gallery.html" >Gallery</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
 
@@ -66,12 +66,19 @@
                 <div>
                     <div>
                         <label for="number">How many cakes do you want</label>
-        <input type="number" id="number-of-cakes" name="number-of-cakes" placeholder="quantity of cakes" step="1" min="1" max="10"/>
+                        <input type="number" id="number-of-cakes" name="number-of-cakes" placeholder="quantity of cakes"
+                            step="1" min="1" max="10" />
                     </div>
                     <div>
                         <label for="number">How many cup cakes do you want</label>
-        <input type="number" id="number-of-cupcakes" name="number-of-cupcakes" placeholder="boxes of eight" step="8" min="1" max="40"/>
+                        <input type="number" id="number-of-cupcakes" name="number-of-cupcakes"
+                            placeholder="boxes of eight" step="8" min="1" max="40" />
                     </div>
+                </div>
+
+                <div>
+                    <label for="deliverydate">Date you want order for:</label>
+                    <input type="date" name="delivery-date" id="deliverydate" max="">
                 </div>
                 <button type="submit" class="join-button">send it</button>
             </form>
@@ -82,17 +89,32 @@
     <!--Footer-->
     <Footer>
         <ul id="social-networks">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" 
-                aria-label="vist our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="vist our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
             <li><a href="https://www.instagram.com/katescakes16/" target="_blank" rel="noopener"
-                 aria-label="vist our instagram page opens in a new tab"><i class="fa-brands fa-instagram"></i></a></li>
+                    aria-label="vist our instagram page opens in a new tab"><i class="fa-brands fa-instagram"></i></a>
+            </li>
 
         </ul>
 
 
     </Footer>
+
+    <script>
+        // Get today's date
+        const today = new Date();
+        // Add 2 days to today's date
+        const minDate = new Date();
+        minDate.setDate(today.getDate() + 2);
+        // Format the date in YYYY-MM-DD
+        const formattedMinDate = minDate.toISOString().split('T')[0];
+        // Set the min attribute to the calculated date
+        document.getElementById('deliverydate').setAttribute('min', formattedMinDate);
+      </script>
 </body>
 
 <!-- font awesome-->
 <script src="https://kit.fontawesome.com/30f44476a6.js" crossorigin="anonymous"></script>
+
 </html>
