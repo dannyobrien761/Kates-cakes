@@ -116,6 +116,8 @@ main {
     min-height: 180px;
     padding-top: 40px;
     padding-left: 10px;
+    
+
 }
 
 #cover-text > h2, #cover-text > h3 {
@@ -152,13 +154,26 @@ main {
     padding: 0 20px;
 }
 
-/*image for reasons*/
-#circle-cover-bg{
+/*image C SHAPE for reasons*/
+#circle-cover-k{
     height: 90vh;
     width: 90vw;
     background: url("../images/cupcakessmaller.png") no-repeat center center/cover;
     margin-bottom: 20px;
-    border-radius: 50%;
+    clip-path: polygon(0 0, 21% 0, 21% 38%, 60% 0, 80% 0, 35% 55%, 80% 100%, 60% 100%, 20% 73%, 20% 100%, 0 100%);
+    
+    max-width: 300px;
+    max-height: 300px;
+
+}
+/*image K SHAPE for reasons*/
+#circle-cover-c{
+    height: 90vh;
+    width: 90vw;
+    background: url("../images/cupcakessmaller.png") no-repeat center center/cover;
+    margin-bottom: 20px;
+    clip-path: polygon(100% 21%, 28% 21%, 28% 79%, 100% 79%, 100% 100%, 0 100%, 0 50%, 0 0, 100% 0);
+    border-radius: 5%;
     max-width: 300px;
     max-height: 300px;
 
@@ -256,7 +271,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #B29561;
 }
 
 #social-networks {
