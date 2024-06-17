@@ -124,6 +124,38 @@ main {
     color: #ffffff;
 }
 
+/*call-to-action section*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    width: 150px; 
+}
+
+
 /*Reasons section*/
 
 #reasons {
