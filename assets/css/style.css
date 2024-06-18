@@ -20,13 +20,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
-.hidden-heading{
+
+.hidden-heading {
     display: none;
 }
 
@@ -34,7 +37,7 @@ h1, h2, h3 {
 /* Header */
 header {
     background-color: #ffffff;
-    padding:0 1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -44,31 +47,38 @@ header {
     align-items: baseline;
 }
 
-header a{
- text-decoration: none;
- color: inherit;
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    display: flex;
+    height: 10vh;
+    width: 10vw;
+    background: url("../images/cake-logo.png") no-repeat center center/contain
 }
 
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 
 /* navbar styles dropdown toggle*/
 
-nav{
-    position:absolute;
+nav {
+    position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
@@ -82,24 +92,26 @@ nav{
 #nav-toggle:checked~nav {
     display: block;
 }
-#nav-toggle{
+
+#nav-toggle {
     display: none;
 }
 
-.nav-toggle-label{
-font-size: 2rem;
+.nav-toggle-label {
+    font-size: 2rem;
 
 }
+
 /* Main content */
 main {
-    
+
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
 /*hero section*/
-#hero{
+#hero {
     height: 700px;
     width: 100%;
     background: url("../images/smallerhero.png") no-repeat center center/cover;
@@ -116,11 +128,12 @@ main {
     min-height: 180px;
     padding-top: 40px;
     padding-left: 10px;
-    
+
 
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
@@ -128,7 +141,7 @@ main {
 #call-to-action {
     margin: 20px auto;
     width: 90%;
-    
+
 }
 
 .container {
@@ -150,15 +163,19 @@ main {
 
 .logo-container {
     display: flex;
+    height: 30vh;
+    width: 30vw;
+    background: url("../images/cake-logo.png") no-repeat center center/contain;
     justify-content: center;
     align-items: center;
     max-width: 40%;
+
 }
 
 .logo {
     max-width: 100%;
     height: auto;
-    width: 150px; 
+    width: 150px;
 }
 
 
@@ -177,10 +194,11 @@ main {
 }
 
 
-#benifits-taste >div, #benifits-eye >div{
+#benifits-taste>div,
+#benifits-eye>div {
     line-height: 20px;
     margin-bottom: 20px;
-} 
+}
 
 #benifits hr {
     border-top: 1px solid #3a3a3a;
@@ -188,24 +206,25 @@ main {
 
 }
 
-#benifits p{
+#benifits p {
     padding: 0 20px;
 }
 
 /*image C SHAPE for reasons*/
-#circle-cover-k{
+#circle-cover-k {
     height: 90vh;
     width: 90vw;
     background: url("../images/cupcakessmaller.png") no-repeat center center/cover;
     margin-bottom: 20px;
     clip-path: polygon(0 0, 21% 0, 21% 38%, 60% 0, 80% 0, 35% 55%, 80% 100%, 60% 100%, 20% 73%, 20% 100%, 0 100%);
-    
+
     max-width: 300px;
     max-height: 300px;
 
 }
+
 /*image K SHAPE for reasons*/
-#circle-cover-c{
+#circle-cover-c {
     height: 90vh;
     width: 90vw;
     background: url("../images/cupcakessmaller.png") no-repeat center center/cover;
@@ -217,46 +236,67 @@ main {
 
 }
 
-#benifits-image{
+#benifits-image {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5%;
-    
+
 }
+
 /*Steps image section*/
 
-#steps{
+#steps {
     background: url("../images/ingredients.jpg") no-repeat center/cover;
     /*handles responsivity without the need for a media query*/
     display: flex;
     flex-wrap: wrap;
 }
 
-#steps div{
+#steps div {
     color: #ffffff;
     background-color: rgba(0, 0, 0, .6);
     padding: 15px 30px;
     text-align: left;
     /*this will not wrap on screens of less than 400px wide, each div will expand to fill the available space on its row*/
     flex-basis: 200px;
-    flex-grow: 1 ;
+    flex-grow: 1;
     /*Creates a grid of meetup time divs over the background image*/
     border: 2px solid white;
 }
 
-#steps h3{
+#steps h3 {
     /*over-ride the heading colour set in general styles*/
     color: #ffffff;
 }
 
 /*gallery page*/
-#photos img{
-    width: 100%;
-    line-height: 1em;
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
 }
-#photos{
-    line-height: 0;
+
+#photos img {
+    object-fit: cover;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+
+}
+
+#photos {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
 }
 
 /* Form */
@@ -330,7 +370,7 @@ footer {
 
 /*media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
-    #photos{
+    #photos {
         column-count: 2;
         column-gap: 0;
     }
@@ -338,8 +378,9 @@ footer {
 
 /* media query: tablets and larger(768px and up)*/
 @media screen and (min-width:768px) {
+
     /*Header*/
-    nav{
+    nav {
         display: block;
         position: relative;
         box-shadow: none;
@@ -351,49 +392,52 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
 
     }
 
-    .nav-toggle-label{
+    .nav-toggle-label {
         display: none;
     }
 
-    #logo{
+    #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
 
     /*main content*/
-    main{
+    main {
         margin-top: 79px;
     }
+
     /* hero*/
-    #cover-text{
+    #cover-text {
         width: 300px;
         right: 50px;
     }
 
     /*reasons section */
-    #benifits-taste, #benifits-eye{
+    #benifits-taste,
+    #benifits-eye {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benifits-taste >div, #benifits-eye >div{
+    #benifits-taste>div,
+    #benifits-eye>div {
         width: 75%;
     }
 
-    #benifits-eye> div{
+    #benifits-eye>div {
         text-align: end;
         align-self: flex-end;
     }
- 
+
     /*gallery*/
-    #photos{
+    #photos {
         column-count: 3;
     }
 
@@ -408,7 +452,7 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #photos{
+    #photos {
         column-count: 4;
     }
 
@@ -423,24 +467,24 @@ footer {
         flex-direction: row;
     }
 
-    #benifits > div {
+    #benifits>div {
         flex: 1;
 
     }
 
-    #benifits-image{
-        order:0;
+    #benifits-image {
+        order: 0;
     }
 
-    #benifits-eye{
+    #benifits-eye {
         order: 1;
     }
 
-    #benifits-eye> div{
+    #benifits-eye>div {
         align-self: flex-start;
     }
 
-    #benifits-taste> div{
+    #benifits-taste>div {
         align-self: flex-end;
     }
 }
