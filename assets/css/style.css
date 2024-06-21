@@ -439,9 +439,10 @@ footer {
 
 /*media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
-    #photos img {
-        width: 100%; 
-        max-width: 100%; 
+    /*gallery*/
+    #photos {
+        column-count: 2;
+    
     }
         
 }
@@ -508,9 +509,9 @@ footer {
 
     
     /*gallery*/
-   #photos img {
-        width: 100%; 
-        max-width: 100%; 
+
+    #photos {
+        column-count: 3;
     }
 }
 
