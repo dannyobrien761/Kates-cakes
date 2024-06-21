@@ -40,52 +40,56 @@
     <!-- Main content-->
     <main>
         <section id="form-section">
-            <div id="form-container">
+            <div id="form-img-container">
                 <div id="filter-form">
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2>Order some tasty treats</h2>
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address</label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
-                <br>
-                <div class="radio-buttons">
-                    <div>
-                        <label for="road">Road</label>
-                        <input type="radio" name="running_preference" id="road" value="road" required checked>
-                    </div>
-                    <div>
-                        <label for="trail">Trail</label>
-                        <input type="radio" name="running_preference" id="trail" value="trail" required>
-                    </div>
-                    <div>
-                        <label for="both">Both</label>
-                        <input type="radio" name="running_preference" id="both" value="both" required>
-                    </div>
-                </div>
+                    <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                        <div id="form-container">
+                            <h2>Order some tasty treats</h2>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" class="text-input" required>
+                            <br>
+                            <label for="email-address">Email Address</label>
+                            <input type="email" name="email_address" id="email-address" class="text-input" required>
+                            <br>
+                            <div class="radio-buttons">
+                                <div>
+                                    <label for="delivery">Delivery</label>
+                                    <input type="radio" name="delivery-preference" id="delivery" value="delivery" required
+                                        checked>
+                                </div>
+                                <div>
+                                    <label for="pick-up">Pick up</label>
+                                    <input type="radio" name="delivery-preference" id="pick-up" value="pick-up" required>
+                                </div>
+                            </div>
 
-                <div>
-                    <div>
-                        <label for="number">How many cakes do you want</label>
-                        <input type="number" id="number-of-cakes" name="number-of-cakes" placeholder="quantity of cakes"
-                            step="1" min="1" max="10" />
-                    </div>
-                    <div>
-                        <label for="number">How many cup cakes do you want</label>
-                        <input type="number" id="number-of-cupcakes" name="number-of-cupcakes"
-                            placeholder="boxes of eight" step="8" min="1" max="40" />
-                    </div>
-                </div>
+                        
+                            <div id="order-box" >
+                            <div>
+                            <label for=" number">How many cakes do you want ?</label>
+                                <input type="number" id="number-of-cakes" name="number-of-cakes"
+                                    placeholder="quantity of cakes" step="1" min="1" max="10" />
+                            </div>
+                            <div>
+                                <label for="number">How many cup cakes do you want ?</label>
+                                <input type="number" id="number-of-cupcakes" name="number-of-cupcakes"
+                                    placeholder="boxes of eight" step="8" min="1" max="40" />
+                            </div>
+                            <div>
+                                <label for="deliverydate">Date you want order for:</label>
+                                <input type="date" name="delivery-date" id="deliverydate" max="">
+                            </div>
 
-                <div>
-                    <label for="deliverydate">Date you want order for:</label>
-                    <input type="date" name="delivery-date" id="deliverydate" max="">
-                </div>
-                <button type="submit" class="join-button">send it</button>
-            </form>
-        </div>
-        </div>
+                            <div id="message-field">
+                                <label for="message">Anything else we can help with ?:</label>
+                                <textarea id="message" name="message" maxlength="200"></textarea>
+                            </div>
+                            </div>
+                            <button type="submit" class="order-button">submit order</button>
+                        </div>
+                </form>
+            </div>
+            </div>
         </section>
 
     </main>
@@ -114,7 +118,7 @@
         const formattedMinDate = minDate.toISOString().split('T')[0];
         // Set the min attribute to the calculated date
         document.getElementById('deliverydate').setAttribute('min', formattedMinDate);
-      </script>
+    </script>
 </body>
 
 <!-- font awesome-->
