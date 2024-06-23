@@ -173,6 +173,10 @@ main {
     padding: 0px 50px;
 }
 
+.text-content p {
+    width: 50%;
+}
+
 .logo-container {
     display: flex;
     height: 30vh;
@@ -192,13 +196,15 @@ main {
 
 .calltoaction-button {
     display: inline-block;
-    padding: 10px 20px;
+    margin: 15px 0px;
+    padding: 10px 5px;
     font-size: 16px;
     color: white;
     background-color: #007BFF;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    width: 125px;
 }
 
 .calltoaction-button:hover {
