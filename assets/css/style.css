@@ -148,6 +148,7 @@ main {
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
+    padding: 0px 10px;
 }
 
 /*call-to-action section*/
@@ -435,12 +436,13 @@ main {
 
 #order-box > div{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 5px 0px;
 }
 
 #order-box input{
-    min-width: 125px;
+    width: 120px;
     min-height: 10px;
     border-radius: 5%;
 }
