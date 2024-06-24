@@ -156,10 +156,11 @@ main {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap ;
+    justify-content: center;
     align-items: center;
     background-color: #fff;
-    padding: 20px;
+    padding: 80px;
     background-color: rgba(241, 109, 107, .5);
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -168,14 +169,13 @@ main {
 .text-content {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    max-width: 60%;
-    padding: 0px 50px;
+    text-align: center;
+    align-items: center;
+    flex-basis: 300px;
+    flex-shrink: 1;
+
 }
 
-.text-content p {
-    width: 50%;
-}
 
 .logo-container {
     display: flex;
@@ -184,7 +184,8 @@ main {
     background: url("../images/cake-logo.png") no-repeat center center/contain;
     justify-content: center;
     align-items: center;
-    max-width: 40%;
+    flex-basis: 300px;
+    flex-shrink: 1;
 
 }
 
@@ -200,7 +201,8 @@ main {
     padding: 10px 5px;
     font-size: 16px;
     color: white;
-    background-color: #007BFF;
+    background-color: transparent;
+    border: #fff 1em;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
