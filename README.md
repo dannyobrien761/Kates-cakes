@@ -16,3 +16,5 @@ Kate's Cakes will be useful for its target audience by providing:
 - An ordering form and a contact form, making it easy for customers to place orders and get in touch with the business for any inquiries or special requests.
 
 By meeting these needs, Kate's Cakes aims to enhance the customer experience, ensuring that each celebration is made sweeter and more memorable with personalized baked goods.
+
+![Responsice Mockup](https://github.com/dannyobrien761/Kates-cakes/media/am-i-responsive-kc1)
