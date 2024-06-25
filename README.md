@@ -17,4 +17,27 @@ Kate's Cakes will be useful for its target audience by providing:
 
 By meeting these needs, Kate's Cakes aims to enhance the customer experience, ensuring that each celebration is made sweeter and more memorable with personalized baked goods.
 
-![Responsice Mockup](https://github.com/dannyobrien761/Kates-cakes/media/am-i-responsive-kc1)
+![responsivity Mockup](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/am-i-responsive-kc1.PNG)
+
+## Features
+### Navigation Bar
+**Description:** Featured on all pages, the fully responsive navigation bar includes links to the Home page, Gallery, and Order Form page, along with the Logo for easy identification.
+**Value:** This section allows users to easily navigate the website from any device, ensuring a seamless and user-friendly experience.
+### Hero Section
+**Description:** The landing page features a hero section with a high-quality photograph of a custom cake and an overlay text that introduces Kate's Cakes.
+**Value:** This section grabs the user's attention immediately, providing a visual representation of the business's offerings and setting the tone for the site's content.
+### Call to Action Section
+**Description:** This section prominently displays the website logo and includes a direct link to the order form on the Contact page.
+**Value:** It encourages users to take immediate action by making it easy to find and access the order form, streamlining the process of placing an order.
+### Reasons Section
+**Description:** The reasons section features a branded image with a clip path and lists compelling reasons for customers to choose Kate's Cakes.
+**Value:**This section builds trust and persuades potential customers by highlighting the benefits and unique selling points of ordering from Kate's Cakes.
+### Order Process Section
+**Description:** This section provides a detailed, step-by-step explanation of the ordering process using <ul> tags, accompanied by a background image and responsive design elements.
+**Value:** It ensures that customers understand how to place an order, making the process transparent and straightforward across all screen sizes.
+### Gallery Page
+**Description:** The gallery page showcases images of previous cake designs, allowing users to browse through various custom creations.
+**Value:** This section inspires potential customers by displaying the range and quality of Kate's Cakes, helping them visualize their own custom orders.
+### Contact Form Page
+**Description:**This page includes a comprehensive form for ordering cakes and cupcakes, with options for delivery or pickup, specifying quantity, type of cake, and the exact date (only allowing selection of dates two days in advance through a date input and JavaScript validation).
+**Value:**It simplifies the ordering process by providing all necessary options and ensuring users can accurately schedule their orders, enhancing the overall user experience.
