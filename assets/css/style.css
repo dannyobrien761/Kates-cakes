@@ -371,6 +371,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 
 
 
@@ -384,14 +385,14 @@ main {
     background-position: center;
     /* Center the image */
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
 
 }
 
 #filter-form {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     backdrop-filter: blur(3px);
     display: flex;
     justify-content: center;
@@ -425,9 +426,21 @@ main {
 
 .radio-buttons {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap ;
     margin: 10px 0px;
     
+}
+
+.radio-buttons > div {
+    padding: 20px;
+    
+}
+
+.address-field input {
+    min-height: 150px;
+    width: 100%;
+    flex-basis: 200px;
+    flex-grow: 2;
 }
 
 #order-box{
