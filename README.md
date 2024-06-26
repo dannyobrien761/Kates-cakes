@@ -33,7 +33,7 @@ By meeting these needs, Kate's Cakes aims to enhance the customer experience, en
 ![tablet view of call to action section](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/call-to-action-section.PNG)
 ### Reasons Section
 **Description:** The reasons section features a branded image with a clip path and lists compelling reasons for customers to choose Kate's Cakes.
-**Value:**This section builds trust and persuades potential customers by highlighting the benefits and unique selling points of ordering from Kate's Cakes.
+**Value:** This section builds trust and persuades potential customers by highlighting the benefits and unique selling points of ordering from Kate's Cakes.
 ![desktop view of reasons section](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/reasons-section.PNG)
 ### Order Process Section
 **Description:** This section provides a detailed, step-by-step explanation of the ordering process using <ul> tags, accompanied by a background image and responsive design elements.
@@ -44,6 +44,6 @@ By meeting these needs, Kate's Cakes aims to enhance the customer experience, en
 **Value:** This section inspires potential customers by displaying the range and quality of Kate's Cakes, helping them visualize their own custom orders.
 ![gallery desktop](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/gallery.PNG)
 ### Contact Form Page
-**Description:**This page includes a comprehensive form for ordering cakes and cupcakes, with options for delivery or pickup, specifying quantity, type of cake, and the exact date (only allowing selection of dates two days in advance through a date input and JavaScript validation).
-**Value:**It simplifies the ordering process by providing all necessary options and ensuring users can accurately schedule their orders, enhancing the overall user experience.
-(https://github.com/dannyobrien761/Kates-cakes/blob/main/media/contact-form.PNG)
+**Description:** This page includes a comprehensive form for ordering cakes and cupcakes, with options for delivery or pickup, specifying quantity, type of cake, and the exact date (only allowing selection of dates two days in advance through a date input and JavaScript validation).
+**Value:** It simplifies the ordering process by providing all necessary options and ensuring users can accurately schedule their orders, enhancing the overall user experience.
+![contact form](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/contact-form.PNG)
