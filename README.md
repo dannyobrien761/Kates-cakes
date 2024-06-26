@@ -73,24 +73,21 @@ The stretched and zoomed image for the background in the gallery and contact pag
 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdannyobrien761.github.io%2FKates-cakes%2F)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fdannyobrien761.github.io%2FKates-cakes%2F&usermedium=all&vextwarning=&warning=1)
 
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - in my GitHub repository,  I navigated to the Settings tab 
+  - From the source section drop-down menu, I selected the Master Branch
+  - Once the master branch has been selected, the page automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://dannyobrien761.github.io/Kates-cakes/
 
 
 ## Credits 
@@ -107,7 +104,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
+- The photos used on the home ol.and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
 
 
