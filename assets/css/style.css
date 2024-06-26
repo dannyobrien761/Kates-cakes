@@ -215,7 +215,7 @@ main {
 
 .calltoaction-button:hover {
     color: rgba(255, 255, 255, 0.452);
-    border-color: 5px solid rgba(233, 150, 122, 0.452);
+    border: 5px solid rgba(233, 150, 122, 0.452);
 }
 
 
