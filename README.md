@@ -26,18 +26,24 @@ By meeting these needs, Kate's Cakes aims to enhance the customer experience, en
 ### Hero Section
 **Description:** The landing page features a hero section with a high-quality photograph of a custom cake and an overlay text that introduces Kate's Cakes.
 **Value:** This section grabs the user's attention immediately, providing a visual representation of the business's offerings and setting the tone for the site's content.
+![hero landing page image and navigation bar](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/hero-section.PNG)
 ### Call to Action Section
 **Description:** This section prominently displays the website logo and includes a direct link to the order form on the Contact page.
 **Value:** It encourages users to take immediate action by making it easy to find and access the order form, streamlining the process of placing an order.
+![tablet view of call to action section](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/call-to-action-section.PNG)
 ### Reasons Section
 **Description:** The reasons section features a branded image with a clip path and lists compelling reasons for customers to choose Kate's Cakes.
 **Value:**This section builds trust and persuades potential customers by highlighting the benefits and unique selling points of ordering from Kate's Cakes.
+![desktop view of reasons section](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/reasons-section.PNG)
 ### Order Process Section
 **Description:** This section provides a detailed, step-by-step explanation of the ordering process using <ul> tags, accompanied by a background image and responsive design elements.
 **Value:** It ensures that customers understand how to place an order, making the process transparent and straightforward across all screen sizes.
+![mobile view of order process section](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/order-process-section.PNG)
 ### Gallery Page
 **Description:** The gallery page showcases images of previous cake designs, allowing users to browse through various custom creations.
 **Value:** This section inspires potential customers by displaying the range and quality of Kate's Cakes, helping them visualize their own custom orders.
+![gallery desktop](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/gallery.PNG)
 ### Contact Form Page
 **Description:**This page includes a comprehensive form for ordering cakes and cupcakes, with options for delivery or pickup, specifying quantity, type of cake, and the exact date (only allowing selection of dates two days in advance through a date input and JavaScript validation).
 **Value:**It simplifies the ordering process by providing all necessary options and ensuring users can accurately schedule their orders, enhancing the overall user experience.
+(https://github.com/dannyobrien761/Kates-cakes/blob/main/media/contact-form.PNG)
