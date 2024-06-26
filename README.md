@@ -44,6 +44,10 @@ By meeting these needs, Kate's Cakes aims to enhance the customer experience, en
 **Value:** This section inspires potential customers by displaying the range and quality of Kate's Cakes, helping them visualize their own custom orders.
 ![gallery desktop](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/gallery.PNG)
 ### Contact Form Page
-**Description:** This page includes a comprehensive form for ordering cakes and cupcakes, with options for delivery or pickup, specifying quantity, type of cake, and the exact date (only allowing selection of dates two days in advance through a date input and JavaScript validation).
+**Description:** This page includes a comprehensive form for ordering cakes and treats, with options for delivery or pickup,selecting occasion theme or event type, specifying quantity, type of cake, type of treat, date input for the order and an option to make additional notes to the order to make the custom cakes or treats even more special. 
+
+I opted to used javascript to also toggle to display of the address text area field feature on the form. The display can be toggled on and off using a the radio button features for delivery or pick up and I didnt want users wasting time putting in the address if they are going to pick up the order themselves.  
+
+The date feature on the form allows users to choose a date that the order will be made for but also only allows them to order two days in advance. This is a very specific feature to the needs of the business for kates cakes as the treats should be made fresh for a specific date for the occasion, but also the order should be recieved with advanced notice to prepare them. The solution I found to this particular problem was using JavaScript to validate a minimum allowable date in an input field of type "date".
 **Value:** It simplifies the ordering process by providing all necessary options and ensuring users can accurately schedule their orders, enhancing the overall user experience.
 ![contact form](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/contact-form.PNG)

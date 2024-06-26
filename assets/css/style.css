@@ -424,6 +424,13 @@ main {
     text-align: center;
 }
 
+#customer-info input{
+ width: 50%;
+ min-width: 250px;
+ min-height: 10px;
+ border-radius: 5%;
+}
+
 .radio-buttons {
     display: flex;
     flex-wrap: wrap ;
@@ -432,7 +439,7 @@ main {
 }
 
 .radio-buttons > div {
-    padding: 20px;
+    padding: 10px;
     
 }
 
