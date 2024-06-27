@@ -92,9 +92,14 @@ The live link can be found here - https://dannyobrien761.github.io/Kates-cakes/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+The the code to make the nav bar, footer, reasons and order process section was inspired by and taken from the  CI [Love running project](https://github.com/Code-Institute-Solutions/love-running-v3). Although I have made additions and changes to the code.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+the HTML code to structure the gallery was taken from the "love running project". And the CSS to style it completely differently was written myself.
+
+the outlining structure to make the form in html and css for the contact page and form element was taken from  "love running project" link above. I ma 
+
+To make the clip paths for the hero and reasons images I used [clippy pathmaker](https://bennettfeely.com/clippy/) 
+
 
 ### Content 
 
