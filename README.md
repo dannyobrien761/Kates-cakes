@@ -21,35 +21,51 @@ By meeting these needs, Kate's Cakes aims to enhance the customer experience, en
 
 ## Features
 ### Navigation Bar
-**Description:** Featured on all pages, the fully responsive navigation bar includes links to the Home page, Gallery, and Order Form page, along with the Logo for easy identification.
-**Value:** This section allows users to easily navigate the website from any device, ensuring a seamless and user-friendly experience.
+- **Description:** 
+  Featured on all pages, the fully responsive navigation bar includes links to the Home page, Gallery, and Order Form page, along with the Logo for easy identification.
+- **Value:** 
+  This section allows users to easily navigate the website from any device, ensuring a seamless and user-friendly experience.
 ### Hero Section
-**Description:** The landing page features a hero section with a high-quality photograph of a custom cake and an overlay text that introduces Kate's Cakes.
-**Value:** This section grabs the user's attention immediately, providing a visual representation of the business's offerings and setting the tone for the site's content.
+- **Description:** 
+  The landing page features a hero section with a high-quality photograph of a custom made cake by kate to give users an imediate introductory perspective of the quality of the cakes on offer  and an overlay text that introduces Kate's Cakes as a business . The overlay is in the shape of a cake itself made by the clippy pathmaker.
+- **Value:** 
+  This section grabs the user's attention immediately, providing a visual representation of the business's offerings and setting the tone for the site's content.
 ![hero landing page image and navigation bar](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/hero-section.PNG)
 ### Call to Action Section
-**Description:** This section prominently displays the website logo and includes a direct link to the order form on the Contact page.
-**Value:** It encourages users to take immediate action by making it easy to find and access the order form, streamlining the process of placing an order.
+- **Description:** 
+  This section prominently displays the website logo and includes a direct link to the order form on the Contact page. it gets users who are already familiar with the brand stright into the ordering process calling them to action.
+- **Value:** 
+  It encourages users to take immediate action by making it easy to find and access the order form, streamlining the process of placing an order.
 ![tablet view of call to action section](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/call-to-action-section.PNG)
 ### Reasons Section
-**Description:** The reasons section features a branded image with a clip path and lists compelling reasons for customers to choose Kate's Cakes.
-**Value:** This section builds trust and persuades potential customers by highlighting the benefits and unique selling points of ordering from Kate's Cakes.
+- **Description:** 
+The reasons section features a branded image with a clip path and lists compelling reasons for customers to choose Kate's Cakes.
+- **Value:** 
+This section builds trust and persuades potential customers by highlighting the benefits and unique selling points of ordering from Kate's Cakes.
 ![desktop view of reasons section](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/reasons-section.PNG)
 ### Order Process Section
-**Description:** This section provides a detailed, step-by-step explanation of the ordering process using <ul> tags, accompanied by a background image and responsive design elements.
-**Value:** It ensures that customers understand how to place an order, making the process transparent and straightforward across all screen sizes.
+- **Description:** 
+  This section provides a detailed, step-by-step explanation of the ordering process using <ul> tags, accompanied by a background image and responsive design elements.
+- **Value:** 
+  It ensures that customers understand how to place an order, making the process transparent and straightforward across all screen sizes.
 ![mobile view of order process section](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/order-process-section.PNG)
 ### Gallery Page
-**Description:** The gallery page showcases images of previous cake designs, allowing users to browse through various custom creations.
-**Value:** This section inspires potential customers by displaying the range and quality of Kate's Cakes, helping them visualize their own custom orders.
+- **Description:** 
+The gallery page showcases images of previous cake designs, allowing users to browse through various custom creations. the images are layed out in a grid format of three columns that deacreases as the screen size fro device used gets smaller. The background image is a zoomed in version of the hero image and I used figma to achieve this zoom and added  a layer blur on a container in css to prevent it looking pixalated. 
+- **Value:** 
+This section inspires potential customers by displaying the range and quality of Kate's Cakes, helping them visualize their own custom orders.
+
 ![gallery desktop](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/gallery.PNG)
 ### Contact Form Page
-**Description:** This page includes a comprehensive form for ordering cakes and treats, with options for delivery or pickup,selecting occasion theme or event type, specifying quantity, type of cake, type of treat, date input for the order and an option to make additional notes to the order to make the custom cakes or treats even more special. 
+- **Description:** 
+This page includes a comprehensive purpose built form to suits the unique ordering process for kates cakes and treats. It has options for delivery or pickup,selecting occasion theme or event type, specifying quantity, type of cake, type of treat, date input for the order and an option to make additional notes to the order to make the custom cakes or treats even more special. 
 
 I opted to used javascript to also toggle to display of the address text area field feature on the form. The display can be toggled on and off using a the radio button features for delivery or pick up and I didnt want users wasting time putting in the address if they are going to pick up the order themselves.  
 
 The date feature on the form allows users to choose a date that the order will be made for but also only allows them to order two days in advance. This is a very specific feature to the needs of the business for kates cakes as the treats should be made fresh for a specific date for the occasion, but also the order should be recieved with advanced notice to prepare them. The solution I found to this particular problem was using JavaScript to validate a minimum allowable date in an input field of type "date".
-**Value:** It simplifies the ordering process by providing all necessary options and ensuring users can accurately schedule their orders, enhancing the overall user experience.
+-**Value:** 
+It simplifies the ordering process by providing all necessary options and ensuring users can accurately schedule their orders, enhancing the overall user experience.
+
 ![contact form](https://github.com/dannyobrien761/Kates-cakes/blob/main/media/contact-form.png)
 
 ### Features Left to Implement
@@ -72,10 +88,14 @@ The stretched and zoomed image for the background in the gallery and contact pag
 ### Validator Testing
 
 
-- HTML
+- **HTML**
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdannyobrien761.github.io%2FKates-cakes%2F)
-- CSS
+- **CSS**
   - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fdannyobrien761.github.io%2FKates-cakes%2F&usermedium=all&vextwarning=&warning=1)
+
+- **Accessibility**
+  - I confirm that with a accessibility score of a 100 in the lighthouse dev tools that the colors and fonts choosen are easy to read and accessible.
+![lighthouse scrore screenshot](media/lighthouse-score-readme2.PNG)
 
 
 
